@@ -1,8 +1,7 @@
 options:
   nfs-common-options:
     type: string
-    default:
+    default: '{}'
     description: |
-      JSON formatted blob of configuraiton options to push to
-      /etc/default/nfs-common e.g.:
-        { NEED_GSSD: yes, NEED_IDMAPD: yes }
+      CSV list of configuraiton options to push to /etc/default/nfs-common e.g.:
+        'NEED_GSSD=yes,NEED_IDMAPD=yes'
