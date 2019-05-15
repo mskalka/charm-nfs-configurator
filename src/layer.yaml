@@ -1,0 +1,6 @@
+includes:
+ - 'layer:basic'
+options:
+  basic:
+    packages:
+      - 'nfs-common'

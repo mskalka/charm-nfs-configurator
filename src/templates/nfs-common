@@ -1,0 +1,8 @@
+###############################################################################
+# [ WARNING ]
+# Configuration file maintained by Juju. Local changes will be overwritten.
+###############################################################################
+
+{% for key, value in nfs_options.items() %}
+{{ key }}={{ value }}
+{% endfor %}

@@ -1,0 +1,17 @@
+name: nfs-configurator
+summary: Sets arbitrary configuration options for the nfs-common package.
+maintainer: Michael Skalka <michael.skalka@canonical.com>
+description: |
+  Sets arbitrary configuration options for the nfs-common package given
+  a JSON blob of options. Does no validation, please don't shoot yourself in
+  the foot.
+tags:
+  - storage
+series:
+  - xenial
+  - bionic
+subordinate: true
+requires:
+  juju-info:
+    interface: juju-info
+    scope: container
