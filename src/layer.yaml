@@ -4,3 +4,4 @@ options:
   basic:
     packages:
       - 'nfs-common'
+repo: https://github.com/mskalka/charm-nfs-configurator
